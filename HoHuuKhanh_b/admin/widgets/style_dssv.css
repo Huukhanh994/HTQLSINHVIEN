@@ -1,0 +1,131 @@
+#header ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    background: #388BBA;
+    border-radius: 3px;
+    margin-right: 7px;
+}
+
+#header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+}
+.chucnang {
+    display: flex;
+}
+.chucnang ul {
+    width: 70%;
+}
+.admin {
+    height: 50px;
+    line-height: 75px;
+    font-family: sans-serif;
+    
+}
+.admin a {
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+.admin a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.htql {
+    padding:  30px 100px;
+    background: #388BBA;
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+body{
+    background: #acacac;
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 100%;
+    margin: 0px auto;
+    overflow: hidden;
+    background: #fff;
+}
+#content{
+    border-top: solid 1px #ddd;
+    min-height: 600px;
+    padding: 10px 30px;
+}
+.button{
+    display: inline-block;
+    padding: 5px 10px;
+    background: blue;
+    color: #fff;
+    text-decoration: none;
+}
+.pagination a{
+    display: inline-block;
+    padding: 3px 5px;
+    background: blue;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+table.form{
+    width: 100%;
+    text-align: center;
+}
+table.form td{
+    border: solid 1px #ddd;
+    padding: 5px 10px;
+}
+table.form thead{
+    font-weight: bold;
+}
+.controls{
+    margin: 10px 0px;
+    text-align: right;
+}
+.form-action a {
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.form-action a:hover {
+    color: red;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #115D7F;
+}
+thead td {
+    font-family: sans-serif;
+}
+
+.select h2 {
+    display: inline-block;
+    font-family: sans-serif;
+    margin: 0px 20px;
+}
+select#select_lop, select#select_khoa {
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}   
+input#btn-select {
+    margin-left: 20px;
+    border: none;
+    padding: 5px 15px;
+    background: #419cc5;
+    color: #fff;
+} 
+
+a.btn-nhapdiem {
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
